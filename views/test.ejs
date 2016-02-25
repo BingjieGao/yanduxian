@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="<!doctype html>">
+
+<head>
+    <meta charset="UTF-8">
+    <title><%=title%></title>
+
+    <!-- bootstrap -->
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+
+    <!--&lt;!&ndash; Optional theme &ndash;&gt;-->
+    <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">-->
+</head>
+<style>
+    body{
+        color:mediumaquamarine;
+    }
+    #navheader{
+        background-color: transparent;
+        border-bottom: 3.3px solid #66CC99;
+        min-height: 75px;
+    }
+    .navbar-brand{
+        color: mediumaquamarine;
+        margin-top: 10px;
+        font-weight: 700;
+    }
+    .navbar-brand:hover{
+        color: #339999;
+    }
+    .navbar-nav>li>a{
+        margin-top: 10px;
+        color: #66CC99;
+    }
+    .navbar-nav>li>a:hover{
+        color: #339999;
+    }
+    .navbar-toggle>span{
+        background:mediumaquamarine;
+        margin-top:20px;
+    }
+    .icon-bar:hover{
+        color:#339999;
+    }
+
+    /*postblog css*/
+    .container-post{
+        margin: 10px;
+        text-align: center;
+    }
+    #markdown{
+        border-right: 4px solid #66CC99;
+    }
+    #post-right{
+        border-left: 4px solid #66CC99;
+    }
+</style>
+<body>
+
+
+<div class="container-fluid">
+    <div class="container-post">
+
+        <div class="row">
+            <div class="col-xs-6" id="markdown">LEFT
+                <br><br><br><br><br><br><br><br>
+            </div>
+            <div class="col-xs-6" id="post-right">RIGHT
+                <br><br><br><br><br><br><br><br>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<script src="./javascripts/jquery-2.1.4.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+</body>
+
+</html>
